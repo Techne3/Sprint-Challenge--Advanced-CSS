@@ -1,1 +1,54 @@
 // Navigation code here
+
+nav {
+
+    background-color: @nav-bg;
+    margin-top: -45px;
+    border-bottom: 1px solid @nav-border;
+    position:fixed;
+    width:100%;
+    opacity: 0.9;
+    z-index: 22;
+
+    .logo {
+        .center();
+        font-size: 5rem;
+        margin: 30px;
+        color: @nav-font
+    }
+
+    .links {
+        .center();
+
+    }
+
+    .links a {
+        font-size: 2rem;
+        margin-left: 40px;
+        margin-bottom: 20px;
+        text-decoration: none;
+        color: @nav-font;
+
+        @media @phone {
+            .center();
+            font-size: 1.6rem;
+        }
+    }
+}
+
+header {
+    .center();
+    position: relative;
+    margin-top:50px;
+
+    img {
+        border-radius: 10px;
+        width: 60%;
+        margin-top:115px;
+
+        @media @phone {
+            width: 100%;
+
+        }
+    }
+}
