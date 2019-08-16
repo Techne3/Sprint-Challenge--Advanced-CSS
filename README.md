@@ -34,21 +34,22 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
- Adaptive websites have a multiple of different designs to cater to which screen size the site is being viewed on. The site will automatically detect when the screen size has been which and adapt according to the design that is needed. While Responsive sites are uses a fluid grid system which provides an optimal experience no matter the screen size. This inturn will have less scrolling and resizing from the user.
+ Adaptive websites have a multiple of different designs to cater to which screen size the site is being viewed on. The site will automatically detect when the screen size has been switched and adapt according to the design that is needed.  Responsive sites uses a fluid grid system which provides an optimal experience no matter the screen size. This inturn will have less scrolling and resizing from the user.
 
 2. Describe what it means to be mobile first vs desktop first. 
 With mobile first you design the layout from a mobile perspective first. This means when designing you start from the smallest screen and move to mid/tablet size and transition up to the web.  When writing media queries you use min-width approach first. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
- Setting the font-size to 62.5% would be setting every browsers font size to 10px. This inturn would allow you to calculate your needed rems off of the 10px.
+
+ Setting the font-size to 62.5% would be setting every browsers font size to 10px. This inturn would allow you to calculate your needed rems off of the 10px instead of the normal 16px.
 
 4. How would you describe preprocessing to someone new to CSS?
 
-Preprocessing is a superset of CSS which allows you to be more efficient in writing less and ultimately creating more readable code. 
+Preprocessing is a superset of CSS which allows you to be more efficient in writing less lines of code and ultimately creating more readable code. 
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-My favorite concept with preprocessing is using mixins and nesting. This helps write easier to read and more maintainable code. The part that gave me the most trouble is installing the packages to use the preprocessors.
+My favorite concept with preprocessing is using mixins and nesting. This helps write easier to read and more maintainable code. The part that gave me the most trouble was installing the packages to use the preprocessors.
 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
@@ -103,11 +104,11 @@ _You will know everything is working properly when you see the styles enabled fo
 
 ### Home Page - Desktop HTML & LESS
 
-* [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
+* [ x] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
 
-* [ ] Add a viewport meta tag to the head of your index.html page
+* [ x] Add a viewport meta tag to the head of your index.html page
 
-* [ ] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
+* [ x] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
 
 * [x ] Navigation Styles: Use the `navigation.less` file for styling.
 
