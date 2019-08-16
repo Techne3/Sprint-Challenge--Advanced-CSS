@@ -1,13 +1,14 @@
 // Navigation code here
 
 nav{
-    .nav-container{
-        background-color:@wild-sand;
-        margin-top: -20px;
-    }
+
+    background-color:@wild-sand;
+    margin-top: -20px;
+    border-bottom: 1px solid @sea-shell ;
+
     .logo{
         .center();
-        font-size: 4rem;
+        font-size: 5rem;
         margin:30px;
     }
     .links{
@@ -26,12 +27,17 @@ nav{
            font-size:1.6rem;
             }
     }
-    
-
-
 }
 
 
 header{
     .center(); 
+     img{
+        border-radius: 10px;
+        width:60%;
+        @media @phone {
+            width:100%;
+         
+        }
+    }
 }

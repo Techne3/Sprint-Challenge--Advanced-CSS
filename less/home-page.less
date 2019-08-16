@@ -3,9 +3,8 @@
 .home {
 
   .intro {
-    @media @phone{
-      .start();
-    }
+    .start();
+  
     h2 {
       padding: 15px;
     }
@@ -60,6 +59,7 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
+  
 
     @media @phone{
       flex-direction: column-reverse;
@@ -99,7 +99,9 @@
           .signUp(#fff, @btn-bg-color);
         }
         @media @phone{
-
+          width:100%;
+          padding: 20px 0;
+          margin-bottom: 20px;
         }
       }
     }

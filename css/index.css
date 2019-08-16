@@ -160,15 +160,16 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-nav .nav-container {
+nav {
   background-color: #F6F6F6;
   margin-top: -20px;
+  border-bottom: 1px solid #F1F1F1;
 }
 nav .logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 4rem;
+  font-size: 5rem;
   margin: 30px;
 }
 nav .links {
@@ -196,6 +197,15 @@ header {
   justify-content: center;
   align-items: center;
 }
+header img {
+  border-radius: 10px;
+  width: 60%;
+}
+@media (max-width: 500px) {
+  header img {
+    width: 100%;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -206,12 +216,10 @@ footer {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 500px) {
-  .home .intro {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
+.home .intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .home .intro h2 {
   padding: 15px;
@@ -302,6 +310,13 @@ footer {
 .home .walk .walk-text .btn:hover {
   background-color: #fff;
   color: #22283A;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    width: 100%;
+    padding: 20px 0;
+    margin-bottom: 20px;
+  }
 }
 .home .walk .walk-img {
   width: 46%;
