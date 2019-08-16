@@ -162,9 +162,12 @@ p {
 }
 nav {
   background-color: #F6F6F6;
-  margin-top: -20px;
+  margin-top: -45px;
   border-bottom: 1px solid #F1F1F1;
+  position: fixed;
   width: 100%;
+  opacity: 0.9;
+  z-index: 22;
 }
 nav .logo {
   display: flex;
@@ -198,10 +201,13 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  margin-top: 50px;
 }
 header img {
   border-radius: 10px;
   width: 60%;
+  margin-top: 115px;
 }
 @media (max-width: 500px) {
   header img {

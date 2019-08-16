@@ -3,10 +3,12 @@
 nav {
 
     background-color: @nav-bg;
-    margin-top: -20px;
+    margin-top: -45px;
     border-bottom: 1px solid @nav-border;
-    // position:absolute;
+    position:fixed;
     width:100%;
+    opacity: 0.9;
+    z-index: 22;
 
     .logo {
         .center();
@@ -36,10 +38,13 @@ nav {
 
 header {
     .center();
+    position: relative;
+    margin-top:50px;
 
     img {
         border-radius: 10px;
         width: 60%;
+        margin-top:115px;
 
         @media @phone {
             width: 100%;
